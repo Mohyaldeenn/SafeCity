@@ -539,7 +539,7 @@ const LoginScreen = ({ onNavigate, onLogin }) => {
               </button>
             </div>
 
-            <Button onClick={() => onLogin({ name: 'أحمد محمد' })} className="w-full mt-6">
+            <Button onClick={() => onLogin({ name: 'محي الدين' })} className="w-full mt-6">
               تسجيل الدخول
             </Button>
 
@@ -1157,7 +1157,7 @@ const ProfileScreen = ({ userData, onNavigate, onLogout }) => (
           <User className="w-12 h-12 text-white" />
         </div>
         <h2 className="text-2xl font-bold text-gray-900 mb-1" style={{ fontFamily: 'Cairo, sans-serif' }}>
-          {userData?.name || 'أحمد محمد'}
+          {userData?.name || 'محي الدين'}
         </h2>
         <p className="text-gray-600" style={{ fontFamily: 'Noto Sans Arabic, sans-serif' }}>
           مستخدم نشط
