@@ -578,7 +578,7 @@ const HomeScreen = ({ userData, reports, onNavigate, onReportClick, onReportType
       </div>
 
       <h1 className="text-3xl font-bold text-white mb-2" style={{ fontFamily: 'Cairo, sans-serif' }}>
-        مرحباً، محمد احمد
+        مرحباً، {userData?.name || 'محي الدين'}
       </h1>
       <div className="flex items-center gap-2 text-blue-100">
         <MapPin className="w-4 h-4" />
